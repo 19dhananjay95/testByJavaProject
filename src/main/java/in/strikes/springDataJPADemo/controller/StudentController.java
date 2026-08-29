@@ -23,6 +23,8 @@ public class StudentController {
         System.out.println("This changes for the testing purpose...");
         System.out.println("Create a new branch and branch name is DJ...");
         System.out.println("new chenges done PR raise...");
+
+        System.out.println("hi this is the new chenges...");
         studentService.createStudent(student);
         return ResponseEntity.ok("DONE");
     }
