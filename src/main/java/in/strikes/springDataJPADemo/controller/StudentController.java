@@ -21,6 +21,7 @@ public class StudentController {
     public ResponseEntity<String> createStudent(
             @RequestBody Student student) {
         System.out.println("This changes for the testing purpose...");
+        System.out.println("Create a new branch and branch name is DJ...");
         studentService.createStudent(student);
         return ResponseEntity.ok("DONE");
     }
