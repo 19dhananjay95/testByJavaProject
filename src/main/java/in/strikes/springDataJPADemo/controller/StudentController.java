@@ -26,6 +26,7 @@ public class StudentController {
 
         System.out.println("hi this is the new chenges...");
         System.out.println("new chenges...");
+        System.out.println("new chenges for fetch...");
         studentService.createStudent(student);
         return ResponseEntity.ok("DONE");
     }
