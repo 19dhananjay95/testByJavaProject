@@ -20,7 +20,7 @@ public class StudentController {
     @PostMapping
     public ResponseEntity<String> createStudent(
             @RequestBody Student student) {
-
+        System.out.println("This changes for the testing purpose...");
         studentService.createStudent(student);
         return ResponseEntity.ok("DONE");
     }
